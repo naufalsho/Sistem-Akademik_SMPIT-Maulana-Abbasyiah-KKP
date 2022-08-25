@@ -9,8 +9,8 @@ Project aplikasi Sistem Akademik - Project KKP (Kerja Kuliah Praktek) - Universi
 * IReport 5.5.0 (JasperReport Lib Netbeans IDE)
 
 # Manual Book
-* Impor database pada folder DATABASE
-* Buka ManualBook.pdf untuk mengetahui cara penggunaan Aplikasi
+* Impor database pada folder DATABASE, impor file [smpit_maulana_abbasyiah.sql](/../main/DATABASE/smpit_maulana_abbasyiah.sql)
+* Buka [ManualBook.pdf](/../main/ManualBook.pdf) untuk mengetahui cara penggunaan Aplikasi
 * Menjalankan Aplikasi dengan klik/buka file dari folder ../dist/sistem_smpit_maulana_abbasyiah.jar
 
 # Author & Develop by:
