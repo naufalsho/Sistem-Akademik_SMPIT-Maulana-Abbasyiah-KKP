@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d3dc40cb-94d3-45d7-8555-17e5e067c824">
+	<property name="ireport.zoom" value="1.1000000000000005"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="273"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="style1" forecolor="#000000" fontName="Times New Roman" fontSize="12" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="tabel wali kelas" uuid="17926f18-2108-435a-a131-1939771ac7be">
+		<queryString>
+			<![CDATA[SELECT
+     wali_kelas.nip,
+     wali_kelas.nama_guru,
+     wali_kelas.no_hp,
+     guru.email,
+     guru.alamat,
+     wali_kelas.kelas
+FROM
+     wali_kelas INNER JOIN guru ON wali_kelas.nip = guru.nip;]]>
+		</queryString>
+		<field name="nip" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nama_guru" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="no_hp" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="email" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="alamat" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="kelas" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="tabel nilai tengah semesester" uuid="623dbc54-9761-486b-a8f9-80cd0efee1e5">
+		<queryString language="SQL">
+			<![CDATA[SELECT
+	siswa.nama,
+	siswa.nis,
+	siswa.kelas,
+	siswa.nama_wali,
+	pelajaran.mapel,
+	pelajaran.kkm,
+	nilai_tengah_semester.semester,
+	nilai_tengah_semester.tahun_ajar,
+	nilai_tengah_semester.nilai,
+	absen.hadir,
+	absen.tidak_hadir,
+	absen.sakit,
+	absen.izin
+FROM
+	siswa INNER JOIN absen ON siswa.nis = absen.nis
+	INNER JOIN nilai_tengah_semester ON siswa.nis = nilai_tengah_semester.nis
+	INNER JOIN pelajaran ON nilai_tengah_semester.kd_mapel = pelajaran.kd_mapel]]>
+		</queryString>
+		<field name="nama" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nis" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="kelas" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nama_wali" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="mapel" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="kkm" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="semester" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tahun_ajar" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nilai" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="hadir" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tidak_hadir" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="sakit" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="izin" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<group name="nama">
+			<groupExpression><![CDATA[$F{nama}]]></groupExpression>
+		</group>
+	</subDataset>
+	<subDataset name="tabel hasil nilai 1 tengah sm" uuid="baad56aa-1625-4669-b483-4755c165f494">
+		<parameter name="NIS_SISWA" class="java.lang.String"/>
+		<parameter name="SEMESTER_SISWA" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[SELECT
+     siswa.`nama`,
+     siswa.`nis`,
+     siswa.`kelas`,
+     siswa.`nama_wali`,
+     pelajaran.`mapel`,
+     pelajaran.`jenis`,
+     pelajaran.`kkm`,
+     nilai_tengah_semester.`semester`,
+     nilai_tengah_semester.`tahun_ajar`,
+     nilai_tengah_semester.`nilai`,
+     absen.`hadir`,
+     absen.`tidak_hadir`,
+     absen.`sakit`,
+     absen.`izin`
+FROM
+     `siswa` siswa INNER JOIN `absen` absen ON siswa.`nis` = absen.`nis`
+     INNER JOIN `nilai_tengah_semester` nilai_tengah_semester ON siswa.`nis` = nilai_tengah_semester.`nis`
+     INNER JOIN `pelajaran` pelajaran ON nilai_tengah_semester.`kd_mapel` = pelajaran.`kd_mapel`
+WHERE
+	pelajaran.jenis = "Bukan Muatan Lokal"
+AND	siswa.nis = $P{NIS_SISWA} 
+AND	nilai_tengah_semester.semester = $P{SEMESTER_SISWA};]]>
+		</queryString>
+		<field name="nama" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nis" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="kelas" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nama_wali" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="mapel" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="jenis" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="kkm" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="semester" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tahun_ajar" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nilai" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="hadir" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tidak_hadir" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="sakit" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="izin" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="tabel hasil nilai 2 tengah sm" uuid="97d30ce4-8705-435a-a1a7-1e3c667b79f3">
+		<parameter name="NIS_SISWA" class="java.lang.String"/>
+		<parameter name="SEMESTER_SISWA" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[SELECT
+     siswa.`nama`,
+     siswa.`nis`,
+     siswa.`kelas`,
+     siswa.`nama_wali`,
+     pelajaran.`mapel`,
+     pelajaran.`jenis`,
+     pelajaran.`kkm`,
+     nilai_tengah_semester.`semester`,
+     nilai_tengah_semester.`tahun_ajar`,
+     nilai_tengah_semester.`nilai`,
+     absen.`hadir`,
+     absen.`tidak_hadir`,
+     absen.`sakit`,
+     absen.`izin`
+FROM
+     `siswa` siswa INNER JOIN `absen` absen ON siswa.`nis` = absen.`nis`
+     INNER JOIN `nilai_tengah_semester` nilai_tengah_semester ON siswa.`nis` = nilai_tengah_semester.`nis`
+     INNER JOIN `pelajaran` pelajaran ON nilai_tengah_semester.`kd_mapel` = pelajaran.`kd_mapel`
+WHERE
+	pelajaran.jenis = "Muatan Lokal"
+AND	siswa.nis = $P{NIS_SISWA}
+AND	nilai_tengah_semester.semester = $P{SEMESTER_SISWA};]]>
+		</queryString>
+		<field name="nama" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nis" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="kelas" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nama_wali" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="mapel" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="jenis" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="kkm" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="semester" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tahun_ajar" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nilai" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="hadir" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tidak_hadir" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="sakit" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="izin" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="tabel kehadiran 1" uuid="05841f79-920b-47f5-a043-7eb2689b39c9">
+		<parameter name="NIS_SISWA" class="java.lang.String"/>
+		<parameter name="SEMESTER_SISWA" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[SELECT DISTINCT
+     siswa.`nama`,
+     siswa.`nis`,
+     siswa.`kelas`,
+     absen.`hadir`,
+     absen.`tidak_hadir`,
+     absen.`sakit`,
+     absen.`izin`,
+     nilai_tengah_semester.semester
+FROM
+     `siswa` siswa INNER JOIN `absen` absen ON siswa.`nis` = absen.`nis`
+      INNER JOIN nilai_tengah_semester ON siswa.nis = nilai_tengah_semester.nis
+WHERE
+	siswa.nis = $P{NIS_SISWA}
+AND	nilai_tengah_semester.semester = $P{SEMESTER_SISWA};]]>
+		</queryString>
+		<field name="nama" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nis" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="kelas" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="hadir" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tidak_hadir" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="sakit" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="izin" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="semester" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="Table Dataset 1" uuid="eb4c0052-0e27-4b39-92ca-aeeccc1b1bcf"/>
+	<subDataset name="tabel hasil nilai 1 akhir sm" uuid="2a92768e-b05e-4e35-9ddb-1a89592431e2">
+		<parameter name="NIS_SISWA" class="java.lang.String"/>
+		<parameter name="SEMESTER_SISWA" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[SELECT
+     siswa.`nama`,
+     siswa.`nis`,
+     siswa.`kelas`,
+     siswa.`nama_wali`,
+     pelajaran.`mapel`,
+     pelajaran.`jenis`,
+     pelajaran.`kkm`,
+     nilai_akhir_semester.`semester`,
+     nilai_akhir_semester.`tahun_ajar`,
+     nilai_akhir_semester.`nilai_pengetahuan`,
+     nilai_akhir_semester.`nilai_keterampilan`,
+     absen.`hadir`,
+     absen.`tidak_hadir`,
+     absen.`sakit`,
+     absen.`izin`
+FROM
+     `siswa` siswa INNER JOIN `absen` absen ON siswa.`nis` = absen.`nis`
+     INNER JOIN `nilai_akhir_semester` nilai_akhir_semester ON siswa.`nis` = nilai_akhir_semester.`nis`
+     INNER JOIN `pelajaran` pelajaran ON nilai_akhir_semester.`kd_mapel` = pelajaran.`kd_mapel`
+WHERE
+	pelajaran.jenis = "Bukan Muatan Lokal"
+AND	siswa.nis = $P{NIS_SISWA} 
+AND	nilai_akhir_semester.semester = $P{SEMESTER_SISWA};]]>
+		</queryString>
+		<field name="nama" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nis" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="kelas" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nama_wali" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="mapel" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="jenis" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="kkm" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="semester" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tahun_ajar" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nilai_pengetahuan" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nilai_keterampilan" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="hadir" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tidak_hadir" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="sakit" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="izin" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="tabel hasil nilai 2 akhir sm" uuid="935210b2-4a75-4879-9190-a670ce90acd8">
+		<parameter name="NIS_SISWA" class="java.lang.String"/>
+		<parameter name="SEMESTER_SISWA" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[SELECT
+     siswa.`nama`,
+     siswa.`nis`,
+     siswa.`kelas`,
+     siswa.`nama_wali`,
+     pelajaran.`mapel`,
+     pelajaran.`jenis`,
+     pelajaran.`kkm`,
+     nilai_akhir_semester.`semester`,
+     nilai_akhir_semester.`tahun_ajar`,
+     nilai_akhir_semester.`nilai_pengetahuan`,
+     nilai_akhir_semester.`nilai_keterampilan`,
+     absen.`hadir`,
+     absen.`tidak_hadir`,
+     absen.`sakit`,
+     absen.`izin`
+FROM
+     `siswa` siswa INNER JOIN `absen` absen ON siswa.`nis` = absen.`nis`
+     INNER JOIN `nilai_akhir_semester` nilai_akhir_semester ON siswa.`nis` = nilai_akhir_semester.`nis`
+     INNER JOIN `pelajaran` pelajaran ON nilai_akhir_semester.`kd_mapel` = pelajaran.`kd_mapel`
+WHERE
+	pelajaran.jenis = "Muatan Lokal"
+AND	siswa.nis = $P{NIS_SISWA}
+AND	nilai_akhir_semester.semester = $P{SEMESTER_SISWA};]]>
+		</queryString>
+		<field name="nama" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nis" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="kelas" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nama_wali" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="mapel" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="jenis" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="kkm" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="semester" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tahun_ajar" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nilai_pengetahuan" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nilai_keterampilan" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="hadir" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tidak_hadir" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="sakit" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="izin" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="tabel kehadiran 2" uuid="348fa792-4584-4205-9efe-e534dfd0a9e3">
+		<parameter name="NIS_SISWA" class="java.lang.String"/>
+		<parameter name="SEMESTER_SISWA" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[SELECT DISTINCT
+     siswa.`nama`,
+     siswa.`nis`,
+     siswa.`kelas`,
+     absen.`hadir`,
+     absen.`tidak_hadir`,
+     absen.`sakit`,
+     absen.`izin`,
+     nilai_akhir_semester.semester
+FROM
+     `siswa` siswa INNER JOIN `absen` absen ON siswa.`nis` = absen.`nis`
+      INNER JOIN nilai_akhir_semester ON siswa.nis = nilai_akhir_semester.nis
+WHERE
+	siswa.nis = $P{NIS_SISWA}
+AND	nilai_akhir_semester.semester = $P{SEMESTER_SISWA};]]>
+		</queryString>
+		<field name="nama" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="nis" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="kelas" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="hadir" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="tidak_hadir" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="sakit" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="izin" class="java.lang.Integer">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="semester" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="tabel kelulusan" uuid="5e598c1d-f6ed-4513-ab93-77474986443f"/>
+	<subDataset name="Table Dataset 2" uuid="173c3e25-4553-4fcd-8583-17c77b857c42"/>
+	<parameter name="NIS_SISWA" class="java.lang.String"/>
+	<parameter name="SEMESTER_SISWA" class="java.lang.String"/>
+	<parameter name="PATH_IMG" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT DISTINCT
+     siswa.`nama`,
+     siswa.`nis`,
+     siswa.`kelas`,
+     siswa.`nama_wali`,
+     pelajaran.`mapel`,
+     pelajaran.`kkm`,
+     nilai_akhir_semester.`semester`,
+     nilai_akhir_semester.`tahun_ajar`,
+     nilai_akhir_semester.`nilai_pengetahuan`,
+     nilai_akhir_semester.`nilai_keterampilan`,
+     absen.`hadir`,
+     absen.`tidak_hadir`,
+     absen.`sakit`,
+     absen.`izin`,
+     wali_kelas.nama_guru
+FROM
+     `siswa` siswa INNER JOIN `absen` absen ON siswa.`nis` = absen.`nis`
+     INNER JOIN `nilai_akhir_semester` nilai_akhir_semester ON siswa.`nis` = nilai_akhir_semester.`nis`
+     INNER JOIN `pelajaran` pelajaran ON nilai_akhir_semester.`kd_mapel` = pelajaran.`kd_mapel`
+     INNER JOIN wali_kelas ON wali_kelas.kelas = siswa.kelas
+WHERE siswa.nis = $P{NIS_SISWA}
+AND  nilai_akhir_semester.semester = $P{SEMESTER_SISWA};]]>
+	</queryString>
+	<field name="nama" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nis" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="kelas" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama_wali" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="mapel" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="kkm" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="semester" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tahun_ajar" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nilai_pengetahuan" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nilai_keterampilan" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="hadir" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tidak_hadir" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="sakit" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="izin" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama_guru" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="105" splitType="Stretch">
+			<staticText>
+				<reportElement x="45" y="60" width="467" height="30" uuid="0f7610de-96af-4116-997a-f06016f6a295"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Alamat : Jln. Raya Citayam Kp. Palabali No. 82-B RT 011/06, Kel. Bojong Pondok Terong, Kec. Cipayung, Kota Depok, Prov. Jawa Barat, Kode Pos 16444]]></text>
+			</staticText>
+			<image isLazy="true" onErrorType="Blank">
+				<reportElement style="style1" x="439" y="0" width="60" height="60" uuid="0a15ebd6-021c-4a7a-8ee5-d261398f14d7"/>
+				<imageExpression><![CDATA[$P{PATH_IMG}+"logo2.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement style="style1" mode="Transparent" x="137" y="0" width="286" height="15" uuid="a66f813e-9a3e-4fea-acfc-7867d912a92c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[YAYASAN DARUSSALAM AT-THOYYIBI   ]]></text>
+			</staticText>
+			<image isLazy="true" onErrorType="Blank">
+				<reportElement style="style1" x="45" y="0" width="60" height="60" uuid="71439968-c64e-4014-899e-ea558ba45e88"/>
+				<imageExpression><![CDATA[$P{PATH_IMG}+"logo1.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="45" y="90" width="467" height="15" uuid="c1ed3333-35cd-42f4-a561-6a0471a00c2e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[NPSN : 70015011 | Email : smpitmaulanaabbasyiah1920@gmail.com | No.Telp : 089628184342]]></text>
+			</staticText>
+			<textField>
+				<reportElement style="style1" x="134" y="30" width="295" height="15" uuid="e934cda8-52a2-4945-8294-d4a5bf775efd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["PENILAIAN AKHIR SEMESTER "+$F{semester}]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement style="style1" x="126" y="45" width="313" height="15" uuid="f076b0de-c373-4ee6-965b-596a0384d700"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["TAHUN PELAJARAN "+$F{tahun_ajar}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement style="style1" mode="Transparent" x="137" y="15" width="286" height="15" uuid="63bffe26-6239-4af9-8459-0427cd86022a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[SMP IT MAULANA ABBASYIAH]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="26" splitType="Stretch">
+			<line>
+				<reportElement style="style1" x="0" y="0" width="555" height="1" uuid="c715b812-8fd5-4c38-8a7d-151c26d7c26c"/>
+			</line>
+			<staticText>
+				<reportElement style="style1" x="155" y="1" width="244" height="21" uuid="14b01757-814d-445d-818a-4f1e40fe527a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[LAPORAN HASIL BELAJAR SISWA]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="50" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="90" height="20" uuid="85a45107-bedc-4fa0-bc95-39462e2f0d5d"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Nama		:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="20" width="90" height="20" uuid="a2f489a0-185f-40de-b02e-96bb1212bd97"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[NIS		:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="350" y="0" width="92" height="20" uuid="ba1ceba7-8e1f-4971-b854-3f6c79f14d63"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Kelas		:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="90" y="0" width="100" height="20" uuid="12e00031-da01-43c8-a379-7b55985db676"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="90" y="20" width="100" height="20" uuid="6b110f9c-c470-441b-ae19-ecd62534ee6a"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nis}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="442" y="0" width="100" height="20" uuid="22c59d5c-b9d2-4cc4-ad61-4c1a8cca1c71"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{kelas}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="442" y="20" width="100" height="20" uuid="d7050bcc-57fd-47e6-87db-77463224bc2b"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{semester}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="350" y="20" width="92" height="20" uuid="c4f25392-47f9-4739-a284-0c810e5ae4ea"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Semester		:]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="304" splitType="Stretch">
+			<staticText>
+				<reportElement x="2" y="0" width="188" height="20" uuid="8b03a7ab-eb32-412a-ad9a-3c3c7d48c92c"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[I. NILAI HASIL BELAJAR]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement key="table 3" style="table 3" x="0" y="20" width="555" height="34" uuid="bc2bfe4b-8fc7-429f-af7b-73d243938a12"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="tabel hasil nilai 1 akhir sm" uuid="bc9740f9-a045-497c-8213-935dd16794ef">
+						<datasetParameter name="NIS_SISWA">
+							<datasetParameterExpression><![CDATA[$P{NIS_SISWA}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="SEMESTER_SISWA">
+							<datasetParameterExpression><![CDATA[$P{SEMESTER_SISWA}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="34" uuid="1faee71e-d761-4d71-a0a4-c6035b465637">
+						<jr:tableHeader style="table 3_TH" height="20" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="34" height="20" uuid="8db9b33c-4f6a-4136-b475-8afb64c97ae0"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman" isBold="true"/>
+								</textElement>
+								<text><![CDATA[No.]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:tableFooter style="table 3_TH" height="0" rowSpan="1"/>
+						<jr:columnHeader style="table 3_CH" height="0" rowSpan="1"/>
+						<jr:columnFooter style="table 3_CH" height="0" rowSpan="1"/>
+						<jr:detailCell style="table 3_TD" height="15" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="34" height="15" uuid="74426b6d-63ae-462b-b7c1-92bedb29f835"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$V{COLUMN_COUNT}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="195" uuid="b06f49e3-9f93-4269-bf16-2a818e91912f">
+						<jr:tableHeader style="table 3_TH" height="20" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="195" height="20" uuid="9061eff0-0a7f-4199-8fe3-a2af3579fa0b"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman" isBold="true"/>
+									<paragraph leftIndent="4"/>
+								</textElement>
+								<text><![CDATA[Mata Pelajaran]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:tableFooter style="table 3_TH" height="0" rowSpan="1"/>
+						<jr:columnHeader style="table 3_CH" height="0" rowSpan="1"/>
+						<jr:columnFooter style="table 3_CH" height="0" rowSpan="1"/>
+						<jr:detailCell style="table 3_TD" height="15" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="195" height="15" uuid="22957d32-aa68-40c5-8aaa-7e41d6d07fd0"/>
+								<textElement verticalAlignment="Middle">
+									<font fontName="Times New Roman"/>
+									<paragraph leftIndent="4"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{mapel}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="78" uuid="2c70b521-f49d-47c1-984e-ab9d00731afc">
+						<jr:tableHeader style="table 3_TH" height="20" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="78" height="20" uuid="785e694e-0ab5-4e71-8ed6-1e9f59e7323e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman" isBold="true"/>
+								</textElement>
+								<text><![CDATA[KKM]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:tableFooter style="table 3_TH" height="0" rowSpan="1"/>
+						<jr:columnHeader style="table 3_CH" height="0" rowSpan="1"/>
+						<jr:columnFooter style="table 3_CH" height="0" rowSpan="1"/>
+						<jr:detailCell style="table 3_TD" height="15" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="78" height="15" uuid="ba07c95a-4a4c-4970-b131-3b6adbf428f8"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{kkm}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="126" uuid="47f791b9-6541-4572-883b-4301fc946ec1">
+						<jr:tableHeader style="table 3_TH" height="20" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="126" height="20" uuid="e0125d7b-0f32-40ef-82eb-8a499252337f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman" isBold="true" isStrikeThrough="false"/>
+								</textElement>
+								<text><![CDATA[NILAI PENGETAHUAN]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:tableFooter style="table 3_TH" height="0" rowSpan="1"/>
+						<jr:columnHeader style="table 3_CH" height="0" rowSpan="1"/>
+						<jr:columnFooter style="table 3_CH" height="0" rowSpan="1"/>
+						<jr:detailCell style="table 3_TD" height="15" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="126" height="15" uuid="332e4aa9-2fdb-47d6-91af-07a684fcd76f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{nilai_pengetahuan}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="121" uuid="fe129ac3-2520-4b5b-93cb-cfc680b06e42">
+						<jr:tableHeader style="table 3_TH" height="20" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="121" height="20" uuid="095ab26b-672b-4ac3-bc5f-07dc05576767"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman" isBold="true" isStrikeThrough="false"/>
+								</textElement>
+								<text><![CDATA[NILAI KETERAMPILAN]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:tableFooter height="0" rowSpan="1"/>
+						<jr:columnHeader height="0" rowSpan="1"/>
+						<jr:columnFooter height="0" rowSpan="1"/>
+						<jr:detailCell style="table 3_TD" height="15" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="121" height="15" uuid="3fca0304-7bad-44bf-ba48-6746eec0700e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{nilai_keterampilan}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 5" style="table 5" positionType="Float" x="0" y="72" width="555" height="36" uuid="1fa5c801-7c4e-4c51-a99c-47f0305e5900"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="tabel hasil nilai 2 akhir sm" uuid="3de5f8c9-a75a-424b-a4e9-d97fdcb03f56">
+						<datasetParameter name="NIS_SISWA">
+							<datasetParameterExpression><![CDATA[$P{NIS_SISWA}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="SEMESTER_SISWA">
+							<datasetParameterExpression><![CDATA[$P{SEMESTER_SISWA}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="33" uuid="60f60ef8-6332-4516-8b0b-a171c98f3db1">
+						<jr:tableHeader style="table 5_TH" height="20" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="33" height="20" uuid="79d0fe57-3d9d-47f3-85b6-c69f9a56e748"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman" isBold="true"/>
+								</textElement>
+								<text><![CDATA[No.]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:tableFooter style="table 5_TH" height="0" rowSpan="1"/>
+						<jr:columnHeader style="table 5_CH" height="0" rowSpan="1"/>
+						<jr:columnFooter style="table 5_CH" height="0" rowSpan="1"/>
+						<jr:detailCell style="table 5_TD" height="15" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="33" height="15" uuid="91f872e6-2bf1-4f9d-a651-0da7b5cf069f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$V{COLUMN_COUNT}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="195" uuid="4543f859-cfcc-45aa-a0aa-02a684f2c6c3">
+						<jr:tableHeader style="table 5_TH" height="20" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="195" height="20" uuid="3db80966-0601-4d67-81f5-a1f459d0b0c3"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Mata Pelajaran]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:tableFooter style="table 5_TH" height="0" rowSpan="1"/>
+						<jr:columnHeader style="table 5_CH" height="0" rowSpan="1"/>
+						<jr:columnFooter style="table 5_CH" height="0" rowSpan="1"/>
+						<jr:detailCell style="table 5_TD" height="15" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="195" height="15" uuid="566ca66c-b238-4461-b658-5b023088874f"/>
+								<textElement verticalAlignment="Middle">
+									<font fontName="Times New Roman"/>
+									<paragraph leftIndent="4"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{mapel}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="79" uuid="d04c5e5e-1d59-4448-ab0e-4bb3d8d05b40">
+						<jr:tableHeader style="table 5_TH" height="20" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="79" height="20" uuid="57a12726-733f-478c-a567-886da0a88c5d"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman" isBold="true"/>
+								</textElement>
+								<text><![CDATA[KKM]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:tableFooter style="table 5_TH" height="0" rowSpan="1"/>
+						<jr:columnHeader style="table 5_CH" height="0" rowSpan="1"/>
+						<jr:columnFooter style="table 5_CH" height="0" rowSpan="1"/>
+						<jr:detailCell style="table 5_TD" height="15" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="79" height="15" uuid="2c36821f-1720-4ea0-b947-e25ba9a79aa9"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{kkm}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="125" uuid="5615f476-92ff-47cf-ab97-aaff811de712">
+						<jr:tableHeader style="table 5_TH" height="20" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="125" height="20" uuid="ec9bea32-63d3-4889-b279-20aa29011c99"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman" isBold="true"/>
+								</textElement>
+								<text><![CDATA[NILAI PENGETAHUAN]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:tableFooter style="table 5_TH" height="0" rowSpan="1"/>
+						<jr:columnHeader style="table 5_CH" height="0" rowSpan="1"/>
+						<jr:columnFooter style="table 5_CH" height="0" rowSpan="1"/>
+						<jr:detailCell style="table 5_TD" height="15" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="125" height="15" uuid="6c6ed333-e06c-4e4a-9689-5d8d9acf82cd"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{nilai_pengetahuan}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="122" uuid="885a2951-320f-4e4e-a9d5-1d3c7b0311ea">
+						<jr:tableHeader style="table 5_TH" height="20" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="122" height="20" uuid="0f89f26d-a0e3-4f2a-8554-285dbcff99f7"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman" isBold="true"/>
+								</textElement>
+								<text><![CDATA[NILAI KETERAMPILAN]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:tableFooter height="0" rowSpan="1"/>
+						<jr:columnHeader height="0" rowSpan="1"/>
+						<jr:columnFooter height="0" rowSpan="1"/>
+						<jr:detailCell style="table 5_TD" height="15" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="122" height="15" uuid="7410c4df-7323-4810-82be-0f87f28f8e13"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{nilai_keterampilan}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement positionType="Float" x="4" y="57" width="188" height="15" uuid="d7151fe0-3652-4ced-8dfa-a952d81b64eb"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[II. MUATAN LOKAL]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement key="table 6" style="table 6" positionType="Float" x="0" y="160" width="318" height="92" uuid="1153a93f-b100-4ba1-87da-5c856a6658b0"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="tabel kehadiran 2" uuid="0c28de4e-62f8-4c84-8ec6-4502dc522c02">
+						<datasetParameter name="NIS_SISWA">
+							<datasetParameterExpression><![CDATA[$P{NIS_SISWA}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="SEMESTER_SISWA">
+							<datasetParameterExpression><![CDATA[$P{SEMESTER_SISWA}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:columnGroup width="311" uuid="e4e5ccb2-cca5-4e51-93ed-f3e7ba22b6be">
+						<jr:tableHeader style="table 6_TH" height="15" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="311" height="15" uuid="015bd49b-f0a3-480d-8413-dbe2d436be75"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman"/>
+								</textElement>
+								<text><![CDATA[Kehadiran]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:tableFooter height="0" rowSpan="1"/>
+						<jr:columnHeader height="0" rowSpan="1"/>
+						<jr:columnFooter height="0" rowSpan="1"/>
+						<jr:column width="33" uuid="933e27b2-d586-40e6-a8e7-7f39c99b79da">
+							<jr:tableHeader style="table 6_TD" height="15" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="33" height="15" uuid="e9bb7472-3fa3-42a6-b2e1-1c3c843d3c33"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Times New Roman"/>
+									</textElement>
+									<text><![CDATA[No.]]></text>
+								</staticText>
+							</jr:tableHeader>
+							<jr:tableFooter style="table 6_TD" height="15" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="33" height="15" uuid="6fd7905d-bfeb-487c-99e9-6d10ed375753"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Times New Roman"/>
+									</textElement>
+									<text><![CDATA[4]]></text>
+								</staticText>
+							</jr:tableFooter>
+							<jr:columnHeader style="table 6_TD" height="15" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="33" height="15" uuid="90393e4c-9766-4d78-ab5c-e966c0986990"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Times New Roman"/>
+									</textElement>
+									<text><![CDATA[1]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:columnFooter style="table 6_TD" height="15" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="33" height="15" uuid="75bb8333-8c9a-4300-a0ca-c9279d498061"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Times New Roman"/>
+									</textElement>
+									<text><![CDATA[3]]></text>
+								</staticText>
+							</jr:columnFooter>
+							<jr:detailCell style="table 6_TD" height="15" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="33" height="15" uuid="abd4a461-580f-427a-bdf4-070c55da13a9"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Times New Roman"/>
+									</textElement>
+									<text><![CDATA[2]]></text>
+								</staticText>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="131" uuid="46db7409-bf15-403a-9c94-e1c8285918ee">
+							<jr:tableHeader style="table 6_TD" height="15" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="131" height="15" uuid="d0fe518a-4032-450f-ab13-1e90ca70580a"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Times New Roman"/>
+									</textElement>
+									<text><![CDATA[Keterangan]]></text>
+								</staticText>
+							</jr:tableHeader>
+							<jr:tableFooter style="table 6_TD" height="15" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="131" height="15" uuid="87c7e1b7-f56f-4390-962d-89ad76f1d443"/>
+									<textElement verticalAlignment="Middle">
+										<font fontName="Times New Roman"/>
+										<paragraph leftIndent="4"/>
+									</textElement>
+									<text><![CDATA[Tanpa Keterangan]]></text>
+								</staticText>
+							</jr:tableFooter>
+							<jr:columnHeader style="table 6_TD" height="15" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="131" height="15" uuid="4c57119d-d8ee-4aa3-80b9-9a93e3e6dd0c"/>
+									<textElement verticalAlignment="Middle">
+										<font fontName="Times New Roman"/>
+										<paragraph leftIndent="4"/>
+									</textElement>
+									<text><![CDATA[Hadir]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:columnFooter style="table 6_TD" height="15" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="131" height="15" uuid="50451943-7140-4b4e-8c81-8494180bc907"/>
+									<textElement verticalAlignment="Middle">
+										<font fontName="Times New Roman"/>
+										<paragraph leftIndent="4"/>
+									</textElement>
+									<text><![CDATA[Izin]]></text>
+								</staticText>
+							</jr:columnFooter>
+							<jr:detailCell style="table 6_TD" height="15" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="131" height="15" uuid="6b1f72f4-deee-42fa-ac3a-7dfa8418a716"/>
+									<textElement verticalAlignment="Middle">
+										<font fontName="Times New Roman"/>
+										<paragraph leftIndent="4"/>
+									</textElement>
+									<text><![CDATA[Sakit]]></text>
+								</staticText>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="147" uuid="d161adcd-c9c4-4cb6-bc94-e658d4a7d6c1">
+							<jr:tableHeader style="table 6_TD" height="15" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="147" height="15" uuid="c8564151-048e-4a3a-9dd1-4a4089361cba"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Times New Roman"/>
+									</textElement>
+									<text><![CDATA[Jumlah]]></text>
+								</staticText>
+							</jr:tableHeader>
+							<jr:tableFooter style="table 6_TD" height="15" rowSpan="1">
+								<textField>
+									<reportElement x="0" y="0" width="147" height="15" uuid="bdaa78fd-253b-4e84-954e-564c95479a14"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Times New Roman"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{tidak_hadir}]]></textFieldExpression>
+								</textField>
+							</jr:tableFooter>
+							<jr:columnHeader style="table 6_TD" height="15" rowSpan="1">
+								<textField>
+									<reportElement x="0" y="0" width="147" height="15" uuid="2ca39003-54f3-4300-aaf3-55f76708cc54"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Times New Roman"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{hadir}]]></textFieldExpression>
+								</textField>
+							</jr:columnHeader>
+							<jr:columnFooter style="table 6_TD" height="15" rowSpan="1">
+								<textField>
+									<reportElement x="0" y="0" width="147" height="15" uuid="fc6145d9-3e95-423f-9214-d716d613c6d7"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Times New Roman"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{izin}]]></textFieldExpression>
+								</textField>
+							</jr:columnFooter>
+							<jr:detailCell style="table 6_TD" height="15" rowSpan="1">
+								<textField>
+									<reportElement x="0" y="0" width="147" height="15" uuid="2232e0e8-5f44-435a-a35b-dde142fed5c2"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font fontName="Times New Roman"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{sakit}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="110" width="208" height="15" uuid="cfaa4faf-4009-463a-9a6a-039f29ae43b6"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[III. CATATAN ORANG TUA WALI]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement key="table 7" style="table 7" positionType="Float" x="0" y="126" width="556" height="28" uuid="2925d2d2-e641-4f14-bfbd-997ef34b7bb9"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Table Dataset 1" uuid="44664f01-83eb-4488-9d41-192afec274c9">
+						<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource(1)]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="555" uuid="50fc8dc1-9e94-4bcb-aa7b-603819e0908c">
+						<jr:tableHeader style="table 7_TH" height="0" rowSpan="1"/>
+						<jr:tableFooter style="table 7_TH" height="0" rowSpan="1"/>
+						<jr:columnHeader style="table 7_CH" height="0" rowSpan="1"/>
+						<jr:columnFooter style="table 7_CH" height="0" rowSpan="1"/>
+						<jr:detailCell style="table 7_TD" height="27" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="555" height="26" uuid="e1501f78-83b3-4ee3-9be4-3c946512bcd3"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Times New Roman" size="12" isBold="true"/>
+									<paragraph leftIndent="5" rightIndent="5"/>
+								</textElement>
+								<text><![CDATA["PANDAILAH KARENA KEPANDAIANMU UNTUKMU BUKAN UNTUK ORANG LAIN"]]></text>
+							</staticText>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 8" style="table 8" positionType="Float" x="318" y="160" width="237" height="92" uuid="35d2c549-23d4-4f51-9398-2954fe31dc88"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Table Dataset 2" uuid="0ab8be47-8586-410b-a169-980f94eebc3d">
+						<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource(1)]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="231" uuid="7ae5081b-405b-48cc-8a87-8d7722abf7b9">
+						<jr:tableHeader style="table 8_TH" height="0" rowSpan="1"/>
+						<jr:tableFooter style="table 8_TH" height="0" rowSpan="1"/>
+						<jr:columnHeader style="table 8_CH" height="0" rowSpan="1"/>
+						<jr:columnFooter style="table 8_CH" height="0" rowSpan="1"/>
+						<jr:detailCell style="table 8_TD" height="89" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="231" height="12" uuid="5ff5188a-7a4f-4054-9d5b-badad8abf08a"/>
+								<textElement verticalAlignment="Middle">
+									<font fontName="Times New Roman" isBold="true"/>
+									<paragraph leftIndent="4"/>
+								</textElement>
+								<text><![CDATA[Keputusan :]]></text>
+							</staticText>
+							<staticText>
+								<reportElement x="0" y="12" width="231" height="13" uuid="0d1dbf07-9d5e-42d0-9351-e1f99956114d"/>
+								<textElement verticalAlignment="Middle">
+									<font fontName="Times New Roman" isBold="false"/>
+									<paragraph leftIndent="4"/>
+								</textElement>
+								<text><![CDATA[ Berdasarkan pencapaian kopentensi pada semester ke-1 ]]></text>
+							</staticText>
+							<staticText>
+								<reportElement x="0" y="25" width="231" height="13" uuid="f5cebd54-56e5-47af-a4ff-e4a0ca74ab09"/>
+								<textElement verticalAlignment="Middle">
+									<font fontName="Times New Roman" isBold="false"/>
+									<paragraph leftIndent="4"/>
+								</textElement>
+								<text><![CDATA[ dan ke-2, peserta didik diterapkan :]]></text>
+							</staticText>
+							<staticText>
+								<reportElement x="0" y="38" width="231" height="24" uuid="53876a98-a59a-4672-8c7e-698e79da3c5a"/>
+								<textElement verticalAlignment="Middle">
+									<font fontName="Times New Roman" isBold="true"/>
+									<paragraph leftIndent="4"/>
+								</textElement>
+								<text><![CDATA[ LULUS / TIDAK LULUS]]></text>
+							</staticText>
+							<staticText>
+								<reportElement x="0" y="62" width="231" height="24" uuid="4771fbc8-af48-4f51-b6a1-347c4fd76b4b"/>
+								<textElement verticalAlignment="Middle">
+									<font fontName="Times New Roman" isBold="false"/>
+									<paragraph leftIndent="4"/>
+								</textElement>
+								<text><![CDATA[*Coret yang tidak perlu]]></text>
+							</staticText>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="101" splitType="Stretch">
+			<staticText>
+				<reportElement style="style1" x="412" y="21" width="100" height="20" uuid="5721e209-8cb6-4766-88d1-49613fe4437f"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Wali Kelas]]></text>
+			</staticText>
+			<textField pattern="EEEEE dd MMMMM yyyy" isBlankWhenNull="true">
+				<reportElement style="style1" x="450" y="1" width="106" height="20" uuid="ba6d30c6-8021-474e-babf-f1bb04c49b5d"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement style="style1" x="0" y="21" width="187" height="20" uuid="431012b7-33df-45c8-a11a-31490f74cdd3"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Kepala SMPIT Maulana Abbasyiah]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="style1" x="0" y="80" width="100" height="20" uuid="331f6cb2-e4f3-4da6-90f2-de9a000818b9"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Nurhadi, S. Pd.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="style1" x="233" y="21" width="100" height="20" uuid="081a48ac-d703-4892-b764-b25012431cfa"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Orang Tua/Wali]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="style1" x="233" y="80" width="100" height="20" uuid="f311e640-d718-449d-9ed8-039f6cc2a9d2"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[..............................]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="412" y="80" width="100" height="20" uuid="06e60e4b-91ea-49c3-b98f-0407845085ae"/>
+				<textElement>
+					<font fontName="Times New Roman" isBold="true" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama_guru}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="412" y="1" width="38" height="20" uuid="6b968ffa-493f-4202-badf-6587de2c857e"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Depok, ]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
