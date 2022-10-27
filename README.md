@@ -46,3 +46,10 @@ Project aplikasi Sistem Akademik - Project KKP (Kerja Kuliah Praktek) - Universi
 
 # Author & Develop by:
 * Naufal Sholahuddin
+* Bama Al Farhan N
+* Wanju Bonardo A
+* Ammar Baghiz F
+* Yoga Pratama
+* Sakti Nurfadillah
+* Akbar Dul Raya
+* Yoda Achyar Prananda
